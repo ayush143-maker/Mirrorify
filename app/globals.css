@@ -7,13 +7,17 @@
     -webkit-tap-highlight-color: transparent;
   }
   body {
-    @apply bg-ink text-paper font-sans antialiased;
+    @apply bg-navy text-cream font-sans antialiased;
     overflow-x: hidden;
   }
   ::selection {
-    @apply bg-gold text-ink;
+    @apply bg-gold text-navy;
   }
   ::-webkit-scrollbar { width: 6px; }
   ::-webkit-scrollbar-track { background: transparent; }
-  ::-webkit-scrollbar-thumb { @apply bg-gold-dark rounded-full; }
+  ::-webkit-scrollbar-thumb { @apply bg-gold/50 rounded-full; }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
 }

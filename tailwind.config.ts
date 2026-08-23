@@ -8,9 +8,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: { DEFAULT: "#0B1220", soft: "#16203A" },
-        paper: { DEFAULT: "#FBF7EE", dark: "#EFE7D6" },
-        gold: { DEFAULT: "#D9A441", dark: "#9A6E22" },
+        navy: { DEFAULT: "#080F1C", soft: "#151F35", line: "#243252" },
+        cream: { DEFAULT: "#F8F4EA", dark: "#EDE7D8" },
+        gold: { DEFAULT: "#D6A23A", bright: "#E8B84B" },
+        graphite: "#101722",
+        smoke: "#85858A",
+        forest: "#24785F",
         seal: "#B3402F",
       },
       fontFamily: {
@@ -18,7 +21,7 @@ const config: Config = {
         display: ["var(--font-display)", "Georgia", "serif"],
       },
       boxShadow: {
-        card: "0 24px 60px rgba(0, 0, 0, 0.45)",
+        card: "0 24px 60px rgba(0, 0, 0, 0.5)",
       },
     },
   },
